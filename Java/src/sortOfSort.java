@@ -1,19 +1,12 @@
 // Javier Rubio
 public class sortOfSort {
     public static void sortOfSort(int[] nums) {
-        
         int lowIndex= 0;
-        
         int highIndex = nums.length-1;
-        
         int maximum = Integer.MIN_VALUE;
-        
         int indexCurrent = 0;
-        
         int count = 0;
-     
         int swap = 0;
-
         for(int i = 0; i < nums.length-1; i++){
             
             maximum = Integer.MIN_VALUE;
